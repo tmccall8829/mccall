@@ -1,2 +1,2 @@
-Built with ReactJS.
-Hosted with Netlify.
+Built with ReactJS.  
+Hosted with Netlify.  
