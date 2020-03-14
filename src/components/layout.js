@@ -6,7 +6,6 @@ import { rhythm, scale } from "../utils/typography.js"
 import Footer from './footer.js'
 
 const Layout = ({ location, title, children }) => {
-  // const rootPath = `${__PATH_PREFIX__}/`
   let header
 
   header = (

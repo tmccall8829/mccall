@@ -1,17 +1,22 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Layout from "../components/layout.js"
 import SEO from "../components/seo.js"
 import { rhythm } from "../utils/typography.js"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <div
+      style={{
+        marginLeft: `auto`,
+        marginRight: `auto`,
+        maxWidth: rhythm(24),
+        padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
+      }}
+    >
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -38,6 +43,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>
+      <div>
+        <Link to="/">Home</Link>
+      </div>
 
       <nav>
         <ul
@@ -65,7 +73,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </li>
         </ul>
       </nav>
-    </Layout>
+    </div>
   )
 }
 
