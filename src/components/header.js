@@ -6,6 +6,8 @@ export default props => (
     <Link to="/">Home</Link>
     <br></br>
     <Link to="/about">About</Link>
+    <br></br>
+    <Link to="/blog">Blog</Link>
     <h1>{props.headerText}</h1>
   </div>
 )
