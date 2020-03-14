@@ -8,7 +8,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import { rhythm } from "../utils/typography"
+import { rhythm } from "../utils/typography.js"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`

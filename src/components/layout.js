@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm, scale } from "../utils/typography.js"
 
-import Footer from '../Components/Footer/footer'
+import Footer from './footer.js'
 
 const Layout = ({ location, title, children }) => {
   // const rootPath = `${__PATH_PREFIX__}/`

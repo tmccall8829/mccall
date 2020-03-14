@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import { Link } from "gatsby"
 import { FaTwitter, FaMediumM } from 'react-icons/fa';
-import { rhythm } from "../../utils/typography"
+import { rhythm } from "../utils/typography.js"
 
 const Footer  = () => {
    return (
