@@ -1,7 +1,9 @@
 import React from "react"
+import Header from "../components/header.js"
 
 export default () => (
   <div>
-    <h1>About Me</h1>
+    <Header headerText = "About"/>
+      <p>I'm Tom.</p>
   </div>
 )
