@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { rhythm, scale } from "../utils/typography.js"
+import { rhythm } from "../utils/typography.js"
 
-import Footer from './footer.js'
+import Footer from './footer/footer.js'
 
 const Layout = ({ location, title, children }) => {
   let header
@@ -11,7 +11,6 @@ const Layout = ({ location, title, children }) => {
   header = (
       <h1
         style={{
-          ...scale(1),
           marginBottom: rhythm(0),
           marginTop: rhythm(0),
         }}

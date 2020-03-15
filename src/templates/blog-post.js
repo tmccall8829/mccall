@@ -43,7 +43,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>
-      <div>
+      <div align="center">
         <Link to="/">Home</Link>
       </div>
 

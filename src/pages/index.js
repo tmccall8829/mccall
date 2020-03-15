@@ -18,16 +18,21 @@ const BlogIndex = ({ data, location }) => {
 
           <article key={node.fields.slug}>
             <header>
-              <h1
+              <h2
                 style={{
                   marginTop: rhythm(1.5), // space between post title and page title
                   marginBottom: rhythm(0.1), // space between post title and post date/summary
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <Link style={{
+                  boxShadow: `none`,
+                  textDecoration: `none`,
+                }}
+                to={node.fields.slug}
+                >
                   {title}
                 </Link>
-              </h1>
+              </h2>
               <small>{node.frontmatter.date}</small>
             </header>
             <section>

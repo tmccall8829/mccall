@@ -9,7 +9,7 @@ sutro.overrideThemeStyles = () => ({
     fontSize: '12px'
   },
 })
-sutro.bodyFontFamily = ['Fira Mono', 'Helvetica', 'sans-serif']
+sutro.bodyFontFamily = ['Helvetica', 'sans-serif']
 
 const typography = new Typography(sutro)
 
