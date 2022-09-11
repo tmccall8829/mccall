@@ -87,7 +87,7 @@ code {
 .card {
     margin: 1rem;
     flex-basis: 30%;
-    min-width: 400px;
+    min-width: 300px;
     padding: 1.5rem;
     text-align: left;
     color: inherit;
@@ -118,7 +118,7 @@ code {
 .priorityCard {
     margin: 1rem;
     flex-basis: 30%;
-    min-width: 400px;
+    min-width: 300px;
     padding: 1.5rem;
     text-align: left;
     background-color: var(--primary-color);
