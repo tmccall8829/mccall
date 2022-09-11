@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Tom McCall</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -15,9 +15,9 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          I'm a software engineer on the data team at {' '}
+          I'm a software engineer on the data team at {''}
           <a href="https://www.huntclub.com">
-            Hunt Club{' '}
+            Hunt Club{''}
             <Image src="/images/hc-icon.ico" height={20} width={20} />
           </a>
         </p>
@@ -26,6 +26,7 @@ export default function Home() {
           <a
             href="https://github.com/tmccall8829"
             className="priorityCard"
+            target="_blank"
           >
             <h3>GitHub &rarr;</h3>
             <p>Check out my latest projects.
@@ -33,26 +34,16 @@ export default function Home() {
             </p>
           </a>
 
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Blog &rarr;</h3>
-            <p>Paragraphs, punctuation, pizzazz. You know, all that stuff.</p>
-          </a>
-
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://www.linkedin.com/in/thomasemorymccall/"
             className="card"
+            target="_blank"
           >
             <h3>LinkedIn &rarr;</h3>
             <p>How many connections u got? I got millions.</p>
           </a>
         </div>
       </main>
-
-      <footer>
-        <h1>
-          ✌🏻💛🐶
-        </h1>
-      </footer>
     </div>
   )
 }
