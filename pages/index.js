@@ -35,7 +35,7 @@ export default function Home() {
             target="_blank"
           >
             <h3>LinkedIn &rarr;</h3>
-            <p>How many connections u got? I got millions.</p>
+            <p>If you're into that kind of thing...</p>
           </a>
         </div>
       </main>
