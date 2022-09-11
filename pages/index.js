@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -15,11 +14,7 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          I'm a software engineer on the data team at {''}
-          <a href="https://www.huntclub.com">
-            Hunt Club{''}
-            <Image src="/images/hc-icon.ico" height={20} width={20} />
-          </a>
+          I'm a software engineer on the data team at <a href="https://www.huntclub.com" target="_blank">Hunt Club.</a>
         </p>
 
         <div className="grid">
