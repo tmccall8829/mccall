@@ -14,7 +14,7 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          I'm a software engineer on the data team at <a href="https://www.huntclub.com">Hunt Club.</a>
+          I'm a software engineer on the data team at <a href="https://www.huntclub.com" target="_blank">Hunt Club.</a>
         </p>
 
         <div className="grid">
