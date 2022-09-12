@@ -12,6 +12,9 @@ export default function SpellingBeeSolverAPI() {
                 <h1>
                     {pageTitle}
                 </h1>
+		<p>
+	    	    Come back later, I'll be ready soon!
+	    	</p>
             </div>
         </Layout>
     )
