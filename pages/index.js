@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -36,12 +37,13 @@ export default function Home() {
             <p>If you're into that kind of thing 🥴</p>
           </a>
 
-          <a href='/playground/bee' className='card' target='_blank'>
+          <a href='/playground/' className='card' target='_blank'>
             <h3>Playground &rarr;</h3>
-            <p>Some help with 🐝 from a little 🤖</p>
+            <p>A bunch of games made by little 🤖</p>
           </a>
         </div>
       </main>
+      <Footer />
     </div>
   )
 }
