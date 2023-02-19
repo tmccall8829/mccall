@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Footer from '../components/footer'
+// import Footer from '../components/footer'
+import FancyText from '../components/fancyText'
 
 export default function Home() {
   return (
@@ -10,12 +11,14 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className='title'>
-          👋🏻 I'm Tom.
-        </h1>
+        <FancyText>
+          <h1>
+            tommccall.dev
+          </h1>
+        </FancyText>
 
         <p className='description'>
-          I'm a software engineer on the data team at <a href='https://www.huntclub.com' target='_blank'>Hunt Club.</a>
+          Hi, I'm Tom McCall ✌🏻 I'm a software engineer on the data team at <a href='https://www.huntclub.com' target='_blank'>Hunt Club.</a>
         </p>
 
         <div className='grid'>
@@ -43,7 +46,7 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

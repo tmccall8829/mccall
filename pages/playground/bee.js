@@ -12,9 +12,9 @@ export default function SpellingBeeSolverAPI() {
                 <h1>
                     {pageTitle}
                 </h1>
-		<p>
-	    	    Come back later, I'll be ready soon!
-	    	</p>
+		        <p>
+	    	        Come back later, I'll be ready soon! In the meantime, check out the source on <a href="https://github.com/tmccall8829/NYT-Spelling-Bee-Solver">Github</a>.
+	    	    </p>
             </div>
         </Layout>
     )

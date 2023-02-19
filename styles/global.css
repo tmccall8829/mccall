@@ -2,9 +2,11 @@
     --primary-color: #F56476;
     --alt-dark-primary-color: #dc4744;
     --alt-light-primary-color: #e27775;
+    --secondary-color: #63b6ff;
     --white-bg-color: #fafafa;
     --border-color: #eaeaea;
-    --dark-text-color: #373F51;
+    --dark-text-color: #434853;
+    --extra-dark-text-color: #191c23;
     --card-border-radius: 15px;
 }
 
@@ -15,6 +17,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
         Oxygen, Ubuntu, Cantarell, Fira Sans Mono, Droid Sans, Helvetica Neue,
         sans-serif;
+    background-color: #fbfbfb;
+    color: var(--dark-text-color);
 }
 
 * {

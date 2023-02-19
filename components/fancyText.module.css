@@ -1,0 +1,7 @@
+.fancyText h1 {
+    background: linear-gradient(122.25deg, var(--primary-color) 12.16%, var(--secondary-color) 70.98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.15;
+    font-size: 4rem;
+}
