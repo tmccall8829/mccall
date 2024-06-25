@@ -18,7 +18,7 @@ export default function Home() {
         </FancyText>
 
         <p className='description'>
-          Hi, I'm Tom McCall ✌🏻 I'm a software engineer on the data team at <a href='https://www.huntclub.com' target='_blank'>Hunt Club.</a>
+          Hi, I'm Tom McCall ✌🏻 I'm a software engineer on the data platform team at <a href='https://www.haus.io' target='_blank'>Haus.</a>
         </p>
 
         <div className='grid'>
